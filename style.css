@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  background-color: #111111;
+  color: #ffffff;
+}
+
+/* ---------------------------Header--------------------------- */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.logo img {
+  margin-left: 5rem;
+
+  height: 4rem;
+}
+
+ul.nav-header {
+  display: flex;
+  align-items: center;
+
+  gap: 0 7rem;
+  margin-right: 10rem;
+}
+
+ul.nav-header li {
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ----------------Header Hero------------------------- */
+
+.header-hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5rem;
+}
+
+.header-hero_left img {
+  width: 50rem;
+  margin-left: 10rem;
+}
+
+.header-hero_right h2 {
+  color: #c91b28;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.header-hero_right h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.header-hero_right p {
+  font-size: 1.5rem;
+  color: #dcdcdc;
+  font-weight: 400;
+}
+
+.header-hero_right button {
+  background-color: #c91b28;
+  color: #ffffff;
+  border: none;
+  padding: 1.2rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+/* ----------------------Section-1--------------------------------- */
+.section-1 {
+  background: linear-gradient(90deg, #181818 50%, #111111 50%);
+  padding-bottom: 6rem;
+}
+.service-card {
+  display: flex;
+  justify-content: center;
+  gap: 0 3rem;
+}
+
+.ui-design {
+  background-color: #1e1e1e;
+  margin-top: 8rem;
+}
+
+.ui-design img {
+  height: 4.5rem;
+}
+
+.ui-design h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.ui-design p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.ui-design h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #c91b28;
+}
+
+.ui-design {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem 0;
+  padding: 4rem 5rem;
+}
+
+.know-more {
+  display: flex;
+  align-items: center;
+  gap: 0 1rem;
+}
+
+.fa-arrow-right {
+  font-size: 1.3rem;
+
+  color: #c91b28;
+}
+
+.product-red {
+  background-color: #c91b28;
+  padding: 4rem 3.2rem;
+}
+
+.product-red .fa-arrow-right {
+  color: #ffffff;
+}
+
+.product-red h4 {
+  color: #ffffff;
+}
+
+/* --------------------section-1, part-2-----Right----------------------- */
+
+.card-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+.card-2_right {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-left: 6rem;
+}
+
+.card-2_box-1 {
+  display: flex;
+  /* border: 1px solid orange; */
+  width: 100%;
+}
+
+.box-1_left {
+  margin-right: 2rem;
+  background-color: #1e1e1e;
+  margin-bottom: 2rem;
+  /* border: 1px solid pink; */
+  width: 100%;
+  padding: 1rem 3rem;
+}
+
+.box-1_right {
+  background-color: #1e1e1e;
+  margin-bottom: 2rem;
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 1rem 3rem;
+}
+
+.left_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left_column h2 {
+  font-size: 4rem;
+  color: #c91b28;
+}
+
+.left_column p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/* ----------------section-1, part-2-----left---------------------- */
+
+.card-2_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.3;
+}
+
+.card-2_left h2 {
+  font-size: 7rem;
+  color: #c91b28;
+  font-weight: 800;
+}
+
+.card-2_left h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* -------------------------Section-2------------------------------ */
+.section-2 {
+  margin-top: 5rem;
+}
+.featured-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 29rem;
+}
+
+.featured-head_left h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.featured-head_left p {
+  font-size: 1.5rem;
+}
+
+.featured-head_right button {
+  background-color: #c91b28;
+  border: none;
+  color: #ffffff;
+  padding: 1.2rem 3rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ---------------------------------------------- */
+
+.section-2_cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+  gap: 0 3rem;
+}
+
+.section-2_card-left img,
+.section-2_card-right img {
+  background-color: #1e1e1e;
+  padding: 5rem 2rem;
+  width: 40rem;
+  object-fit: cover;
+}
+
+.section-2-card_know-more {
+  display: flex;
+  align-items: center;
+  gap: 0 1rem;
+}
+
+.section-2_card-left h2,
+.section-2_card-right h2 {
+  font-size: 2rem;
+}
+
+.section-2-card_know-more h3 {
+  color: #c91b28;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.section-2_card-left,
+.section-2_card-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem 0;
+}
+
+/* -------------------------Section-3-------------------------- */
+.section-3 {
+  margin-top: 8rem;
+}
+.section-3_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  width: 70%;
+  margin: 0 auto;
+  gap: 0 20rem;
+  padding: 4rem 0;
+}
+
+.section-3_container h2 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+.section-3_container p {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.section-3_right button {
+  background-color: #c91b28;
+  border: none;
+  color: #ffffff;
+  padding: 1.2rem 3rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* ---------------------------Section-4------------------------- */
+.section-4 {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+.section-4 ul {
+  display: flex;
+  justify-content: center;
+  gap: 0 5rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* --------------------------------Section-5------------------------ */
+
+.section-5 {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  /* justify-content: flex-start; */
+  padding: 2.5rem 0;
+}
+
+.section-5_logo img {
+  height: 3rem;
+  cursor: pointer;
+  margin-left: 20rem;
+}
+
+.section-5_social {
+  display: flex;
+  gap: 0 8rem;
+  font-size: 2rem;
+  margin-left: 28rem;
+  cursor: pointer;
+}
