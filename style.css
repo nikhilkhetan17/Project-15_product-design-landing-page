@@ -73,6 +73,10 @@ nav .fa-bars {
     margin-right: 3rem;
     cursor: pointer;
   }
+
+  .logo img {
+    margin-left: 2.5rem;
+  }
 }
 
 /* ----------------Header Hero------------------------- */
